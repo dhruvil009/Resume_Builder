@@ -1,0 +1,50 @@
+body{
+    font-family: myFirstFont;
+    color: white;
+    font-size: 15px;
+    align-content: center;
+    background-color: #222222;
+    padding-left: 350px;
+    padding-right: 350px;
+
+}
+input{
+    background-color: #484848;
+    box-shadow: 30px;
+    text-decoration-color: aliceblue;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px green;
+    border-radius: 7px;
+    color: white;
+}
+
+input:focus {
+    background-color: #9B9FAB;
+}
+input[type = checkbox]{
+    width: 35px;
+}
+input[type = radio]{
+    width: 35px;
+}
+textarea{
+    background-color: #484848;
+    box-shadow: 30px;
+    text-decoration-color: aliceblue;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px green;
+    border-radius: 7px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(comic-sans-ms-596dd39b556d8.ttf);
+    font-weight: bold;
+}
+  
+pg08 --- Submit files

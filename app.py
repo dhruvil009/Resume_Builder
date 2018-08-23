@@ -19,7 +19,7 @@ def go():
         email = request.form['email']
         contact = request.form['contact']
         profile = request.form['profile']
-
+        job = request.form['job']
 
         work_exp_count = request.form['work_exp_count']
         work_exp = []
@@ -46,7 +46,7 @@ def go():
         for i in range(int(skills_count)):
             a = request.form['skills_' + str(i + 1)]
             keySkills.append(a)
-        return render_template('index.html', name=name, email=email, contact=contact, profile=profile, keySkills = keySkills, education = education, work_exp = work_exp)
+        return render_template('index.html', name=name, email=email, job=job, contact=contact, profile=profile, keySkills = keySkills, education = education, work_exp = work_exp)
 
 ## For Rendering Form
 @app.route('/form')
